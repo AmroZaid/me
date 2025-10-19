@@ -1,4 +1,5 @@
 *{
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     padding:0;
     margin: 0;
@@ -13,15 +14,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 #name {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-
-    background-color: aqua;
+    font-weight: 700;   
 }
 .links{
-background-color: blueviolet;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+#aboutMe{
+    font-size: 1.2rem;
+    margin-left: 20vh;
+    margin-top: 15vh;
+    margin-right: 10vh;
 }
